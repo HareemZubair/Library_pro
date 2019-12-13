@@ -1,0 +1,38 @@
+c:\users\tc\documents\visual studio 2013\Projects\myweb\myweb\bin\myweb.dll.config
+c:\users\tc\documents\visual studio 2013\Projects\myweb\myweb\bin\myweb.dll
+c:\users\tc\documents\visual studio 2013\Projects\myweb\myweb\bin\myweb.pdb
+c:\users\tc\documents\visual studio 2013\Projects\myweb\myweb\obj\Debug\myweb.csprojResolveAssemblyReference.cache
+c:\users\tc\documents\visual studio 2013\Projects\myweb\myweb\obj\Debug\myweb.dll
+c:\users\tc\documents\visual studio 2013\Projects\myweb\myweb\obj\Debug\myweb.pdb
+C:\Users\TC\Desktop\myweb\myweb\bin\myweb.dll.config
+C:\Users\TC\Desktop\myweb\myweb\bin\myweb.dll
+C:\Users\TC\Desktop\myweb\myweb\bin\myweb.pdb
+C:\Users\TC\Desktop\myweb\myweb\obj\Debug\myweb.csprojResolveAssemblyReference.cache
+C:\Users\TC\Desktop\myweb\myweb\obj\Debug\myweb.dll
+C:\Users\TC\Desktop\myweb\myweb\obj\Debug\myweb.pdb
+C:\Users\TC\Desktop\lib\myweb\bin\myweb.dll.config
+C:\Users\TC\Desktop\lib\myweb\bin\myweb.dll
+C:\Users\TC\Desktop\lib\myweb\bin\myweb.pdb
+C:\Users\TC\Desktop\lib\myweb\obj\Debug\myweb.csprojResolveAssemblyReference.cache
+C:\Users\TC\Desktop\lib\myweb\obj\Debug\myweb.dll
+C:\Users\TC\Desktop\lib\myweb\obj\Debug\myweb.pdb
+C:\Users\TC\Desktop\lib - Copy\myweb\bin\myweb.dll.config
+C:\Users\TC\Desktop\lib - Copy\myweb\bin\myweb.dll
+C:\Users\TC\Desktop\lib - Copy\myweb\bin\myweb.pdb
+C:\Users\TC\Desktop\lib - Copy\myweb\obj\Debug\myweb.dll
+C:\Users\TC\Desktop\lib - Copy\myweb\obj\Debug\myweb.pdb
+C:\Users\TC\Desktop\lib - Copy\myweb\obj\Debug\myweb.csprojResolveAssemblyReference.cache
+E:\computer collegiate\lib - Copy\myweb\bin\myweb.dll.config
+E:\computer collegiate\lib - Copy\myweb\bin\myweb.dll
+E:\computer collegiate\lib - Copy\myweb\bin\myweb.pdb
+E:\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.csprojResolveAssemblyReference.cache
+E:\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.csproj.CoreCompileInputs.cache
+E:\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.dll
+E:\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.pdb
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\bin\myweb.dll.config
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\bin\myweb.dll
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\bin\myweb.pdb
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.csprojAssemblyReference.cache
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.csproj.CoreCompileInputs.cache
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.dll
+C:\Users\haree\Documents\BSSE\computer collegiate\lib - Copy\myweb\obj\Debug\myweb.pdb

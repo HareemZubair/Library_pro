@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9DD625A1-570C-47DB-8762-4FF8FFBE8735}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mylibrary</RootNamespace>
+    <AssemblyName>mylibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\frmadminabout.aspx" />
+    <Content Include="Admin\frmadminfeedback.aspx" />
+    <Content Include="Admin\frmadminhome.aspx" />
+    <Content Include="Admin\frmadminmember.aspx" />
+    <Content Include="Admin\frmadminnews.aspx" />
+    <Content Include="Admin\frmadminpanel.aspx" />
+    <Content Include="Admin\frmadminsearch.aspx" />
+    <Content Include="Admin\images\1273014462.png" />
+    <Content Include="Admin\images\Admin Icon - 01.png" />
+    <Content Include="Admin\images\book-xxl.png" />
+    <Content Include="Admin\images\icons8-Home Page Filled-50.png" />
+    <Content Include="Admin\images\info-green.png" />
+    <Content Include="Admin\images\member-icon.png" />
+    <Content Include="Admin\XMLFile1.xml" />
+    <Content Include="App_Data\dblib.mdf" />
+    <Content Include="App_Data\dblib_log.ldf">
+      <DependentUpon>dblib.mdf</DependentUpon>
+    </Content>
+    <Content Include="frmabout.aspx" />
+    <Content Include="frmadmin.aspx" />
+    <Content Include="frmComments.aspx" />
+    <Content Include="frmhome.aspx" />
+    <Content Include="frmmember.aspx" />
+    <Content Include="frmsearch.aspx" />
+    <Content Include="frmviewfeedback.aspx" />
+    <Content Include="images\2048x2048-white-solid-color-background.jpg" />
+    <Content Include="images\3185883bd462cf1e01f111ec8719229e.jpg" />
+    <Content Include="images\32c773e53b8aca92f2607e8bf74df703_toronto-eat-canteen-4jpg-canteen_1020-500.jpeg" />
+    <Content Include="images\52810_orig.jpg" />
+    <Content Include="images\9edf457a84f805c95842d6e4c731c8dd.jpg" />
+    <Content Include="images\abt.ico" />
+    <Content Include="images\add1.jpg" />
+    <Content Include="images\add2.jpg" />
+    <Content Include="images\add3.png" />
+    <Content Include="images\add4.jpg" />
+    <Content Include="images\add5.png" />
+    <Content Include="images\adit.jpg" />
+    <Content Include="images\admin.png" />
+    <Content Include="images\Advanced-Certificate-in-IT.jpg" />
+    <Content Include="images\arif.jpg" />
+    <Content Include="images\arrow-left-right-hi.png" />
+    <Content Include="images\books.jpg" />
+    <Content Include="images\cba344f451dede114e21b2743248030d.png" />
+    <Content Include="images\cc-logo.png" />
+    <Content Include="images\CC.png" />
+    <Content Include="images\CC1.png" />
+    <Content Include="images\cit.png" />
+    <Content Include="images\com.ico" />
+    <Content Include="images\courses.png" />
+    <Content Include="images\D-Y-Patil-Dental-College-and-Hospital1.JPG" />
+    <Content Include="images\d9b1e6729ef505e4565be0f0c2b6470a.jpg" />
+    <Content Include="images\d9b1e6729ef505e4565be0f0c2b6470a1.jpg" />
+    <Content Include="images\door_exit.png" />
+    <Content Include="images\fac.ico" />
+    <Content Include="images\FacultyIcon.png" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\fb_icon_325x325.png" />
+    <Content Include="images\free-library-clipart-19.jpg" />
+    <Content Include="images\GAP-01.png" />
+    <Content Include="images\GAP-011.png" />
+    <Content Include="images\gmail.png" />
+    <Content Include="images\Graphic-Design-PNG.png" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\home1.jpg" />
+    <Content Include="images\home2.jpg" />
+    <Content Include="images\home3.jpg" />
+    <Content Include="images\HP.png" />
+    <Content Include="images\image1.jpg" />
+    <Content Include="images\image10.jpeg" />
+    <Content Include="images\image10.jpg" />
+    <Content Include="images\image11.PNG" />
+    <Content Include="images\image12.png" />
+    <Content Include="images\image13.jpg" />
+    <Content Include="images\image14.jpg" />
+    <Content Include="images\image16.jpg" />
+    <Content Include="images\image17.jpg" />
+    <Content Include="images\image18.png" />
+    <Content Include="images\image2.jpg" />
+    <Content Include="images\image3.jpg" />
+    <Content Include="images\image4.jpg" />
+    <Content Include="images\image5.jpg" />
+    <Content Include="images\image6.jpg" />
+    <Content Include="images\image7.jpg" />
+    <Content Include="images\image8.jpg" />
+    <Content Include="images\image9.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\images.png" />
+    <Content Include="images\images1.png" />
+    <Content Include="images\images2.png" />
+    <Content Include="images\images3.png" />
+    <Content Include="images\images4.png" />
+    <Content Include="images\images5.png" />
+    <Content Include="images\img1.jpg" />
+    <Content Include="images\img2.jpg" />
+    <Content Include="images\img3.jpg" />
+    <Content Include="images\insta.png" />
+    <Content Include="images\ismat.jpg" />
+    <Content Include="images\k3797609.jpg" />
+    <Content Include="images\la3330lab.jpg" />
+    <Content Include="images\LGL_logo.jpg" />
+    <Content Include="images\lib.jpg" />
+    <Content Include="images\lib2.jpg" />
+    <Content Include="images\library.jpg" />
+    <Content Include="images\library_catalogue.jpg" />
+    <Content Include="images\lin.png" />
+    <Content Include="images\linkedin.jpg" />
+    <Content Include="images\LoginRed.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\LOGOLIB.jpg" />
+    <Content Include="images\ms-office.jpg" />
+    <Content Include="images\msoff.jpg" />
+    <Content Include="images\muzeum.png" />
+    <Content Include="images\nu.jpg" />
+    <Content Include="images\particle-1.jpg" />
+    <Content Include="images\prestamos.jpg" />
+    <Content Include="images\refreh.jpg" />
+    <Content Include="images\REFRESH-1.001-001.jpg" />
+    <Content Include="images\refresh.jpg" />
+    <Content Include="images\rehan.jpg" />
+    <Content Include="images\RivLibNew.JPG" />
+    <Content Include="images\rpcwordle.JPG" />
+    <Content Include="images\search.png" />
+    <Content Include="images\software-development-banner.jpg" />
+    <Content Include="images\stock-vector-vector-chalk-draw-physics-elements-on-green-background-eps-302988179.jpg" />
+    <Content Include="images\twitter %282%29.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\ub.PNG" />
+    <Content Include="images\ubit.png" />
+    <Content Include="images\Web_Designing.png" />
+    <Content Include="images\Wellsway_Library_Colour_Logo_new.jpg" />
+    <Content Include="images\zeeshan.jpg" />
+    <Content Include="style\StyleSheet1.css" />
+    <Content Include="style\StyleSheet2.css" />
+    <Content Include="Web.config" />
+    <Content Include="XMLFile1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\frmadminabout.aspx.cs">
+      <DependentUpon>frmadminabout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminabout.aspx.designer.cs">
+      <DependentUpon>frmadminabout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadminfeedback.aspx.cs">
+      <DependentUpon>frmadminfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminfeedback.aspx.designer.cs">
+      <DependentUpon>frmadminfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadminhome.aspx.cs">
+      <DependentUpon>frmadminhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminhome.aspx.designer.cs">
+      <DependentUpon>frmadminhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadminmember.aspx.cs">
+      <DependentUpon>frmadminmember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminmember.aspx.designer.cs">
+      <DependentUpon>frmadminmember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadminnews.aspx.cs">
+      <DependentUpon>frmadminnews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminnews.aspx.designer.cs">
+      <DependentUpon>frmadminnews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadminpanel.aspx.cs">
+      <DependentUpon>frmadminpanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminpanel.aspx.designer.cs">
+      <DependentUpon>frmadminpanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmadminsearch.aspx.cs">
+      <DependentUpon>frmadminsearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmadminsearch.aspx.designer.cs">
+      <DependentUpon>frmadminsearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clslib.cs" />
+    <Compile Include="frmabout.aspx.cs">
+      <DependentUpon>frmabout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmabout.aspx.designer.cs">
+      <DependentUpon>frmabout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmadmin.aspx.cs">
+      <DependentUpon>frmadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmadmin.aspx.designer.cs">
+      <DependentUpon>frmadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmComments.aspx.cs">
+      <DependentUpon>frmComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmComments.aspx.designer.cs">
+      <DependentUpon>frmComments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmhome.aspx.cs">
+      <DependentUpon>frmhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmhome.aspx.designer.cs">
+      <DependentUpon>frmhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmmember.aspx.cs">
+      <DependentUpon>frmmember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmmember.aspx.designer.cs">
+      <DependentUpon>frmmember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmsearch.aspx.cs">
+      <DependentUpon>frmsearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmsearch.aspx.designer.cs">
+      <DependentUpon>frmsearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmviewfeedback.aspx.cs">
+      <DependentUpon>frmviewfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmviewfeedback.aspx.designer.cs">
+      <DependentUpon>frmviewfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="Admin\Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\NewFolder1\" />
+    <Folder Include="jquery\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1825</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1825/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

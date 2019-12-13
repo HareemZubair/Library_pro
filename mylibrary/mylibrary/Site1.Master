@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="mylibrary.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style/StyleSheet1.css" rel="stylesheet" />
+    <link href="style/StyleSheet2.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="Container">
+            <div id="news">
+                <div id="search">
+                Search :
+                <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
+
+            &nbsp;<asp:ImageButton ID="ImageButton10" runat="server" ImageUrl="~/images/search.png" OnClick="ImageButton10_Click" Width="20px" />
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" PostBackUrl="~/frmmember.aspx">SignUp?</asp:LinkButton>
+                </div>
+            <div id="slider">
+                <asp:ImageButton ID="ImageButton3" runat="server" Height="144px" Width="146px" ImageUrl="~/images/LOGOLIB.jpg" PostBackUrl="~/frmhome.aspx" />
+&nbsp;&nbsp;
+                <asp:ImageButton ID="ImageButton12" runat="server" Height="144px" Width="1168px" />
+            </div>
+            <div id="navigation">
+                
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="2">
+                    <StaticMenuItemStyle ForeColor="White" HorizontalPadding="15px" VerticalPadding="5px" />
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div>
+            <div id="mappath">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        main
+        </asp:ContentPlaceHolder>
+            </div>
+            <div id="aside">
+                <div class="inner-aside">
+                
+                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile1.xml" Height="100%" Width="100%" />
+                
+            </div>
+            <div class="inner-aside">
+                
+                </div>
+            </div>
+           
+            </div>
+            <div id="contact">
+                &nbsp;<asp:ImageButton ID="ImageButton5" runat="server" Height="37px" ImageUrl="~/images/fb.png" PostBackUrl="http://www.facebook.com" Width="56px" />
+&nbsp;&nbsp;
+                <asp:ImageButton ID="ImageButton6" runat="server" Height="35px" ImageUrl="~/images/twitter.png" PostBackUrl="http://www.twitter.com" Width="52px" />
+&nbsp;
+                <asp:ImageButton ID="ImageButton7" runat="server" Height="34px" ImageUrl="~/images/gmail.png" PostBackUrl="http://www.gmail.com" Width="48px" />
+&nbsp;
+                <asp:ImageButton ID="ImageButton8" runat="server" Height="38px" ImageUrl="~/images/insta.png" PostBackUrl="http://www.instagram.com" Width="57px" />
+&nbsp;
+                <asp:ImageButton ID="ImageButton9" runat="server" Height="36px" ImageUrl="~/images/linkedin.jpg" PostBackUrl="http://www.linkin.com" Width="67px" />
+&nbsp;&nbsp;&nbsp;
+            </div>
+            <div id="cr">Copyright@2017
+             </div>
+        </div>
+    </form>
+</body>
+</html>
+

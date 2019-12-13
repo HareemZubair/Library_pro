@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="myweb.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style/StyleSheet1.css" rel="stylesheet" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+            <div id="contact">&nbsp;<a href="http://www.losgatoslibrary.com">www.losgatoslibrary.com</a><br />
+                +921 3985627</div>
+            <div id="header">
+                <div id="logo">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="95px" ImageUrl="~/images/LGL_logo.jpg" Width="162px" />
+                </div>
+                <div id="search">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Search&nbsp;&nbsp;
+                    <asp:TextBox ID="txtsearch" runat="server" Height="16px" OnTextChanged="TextBox1_TextChanged" Width="135px"></asp:TextBox>
+&nbsp;<asp:ImageButton ID="ImageButton2" runat="server" Height="20px" ImageUrl="~/images/search.png" OnClick="ImageButton2_Click" Width="29px" />
+&nbsp;
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="26px" ImageUrl="~/images/fb_icon_325x325.png" OnClick="ImageButton3_Click" Width="31px" PostBackUrl="http://www.facebook.com" />
+&nbsp;
+                    <asp:ImageButton ID="ImageButton4" runat="server" EnableTheming="False" Height="26px" ImageUrl="~/images/linkedin.jpg" Width="25px" PostBackUrl="http://www.linkin.com" />
+&nbsp;
+                    <asp:ImageButton ID="ImageButton5" runat="server" Height="26px" ImageUrl="~/images/apple-touch-icon-192x192.png" OnClick="ImageButton5_Click" Width="20px" PostBackUrl="http://www.twitter.com" />
+&nbsp;<asp:ImageButton ID="ImageButton6" runat="server" Height="26px" ImageUrl="~/images/download.png" Width="17px" PostBackUrl="http://www.gmail.com" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Sign Up?</asp:LinkButton>
+                </div>
+                <div id="navigation">
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" ForeColor="White" Orientation="Horizontal" StaticDisplayLevels="2" OnMenuItemClick="Menu1_MenuItemClick">
+                        <StaticMenuItemStyle Font-Bold="True" Font-Italic="False" Font-Size="15px" Font-Underline="True" ForeColor="White" HorizontalPadding="10px" ItemSpacing="10px" VerticalPadding="1px" Width="100%" />
+                        <StaticMenuStyle Height="20px" HorizontalPadding="10px" VerticalPadding="10px" Width="100%" />
+                    </asp:Menu>
+                </div> 
+                <div id="mappath">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                        <CurrentNodeStyle ForeColor="#333333" />
+                        <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                        <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                    </asp:SiteMapPath>
+                </div>   
+            </div>
+            <div id="slider">
+                 <!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:898px;margin:0px auto 0px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/library.jpg" alt="library"  title="library" />
+                </li>
+                <li><img src="images/library_catalogue.jpg" alt="library_catalogue"  title="library_catalogue" />
+                </li>
+                <li><img src="images/prestamos.jpg" alt="Educate Yourself"  title="Educate Yourself" />
+                </li>
+                <li><img src="images/image6.jpg" alt="Educate Yourself with IT"  title="Educate Yourself with IT" />
+                </li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Slider">Responsive jQuery Slidersponsive jQuery Slider</a><asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    
+            </div>
+            <div id="aside">
+                <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/XMLFile1.xml" Height="100%" Width="100%" />
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>  
+            </div>
+            <div id="asider"></div>
+            <div id="asidert"></div>
+            <div id="footer">&nbsp;<br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" ForeColor="White" Text="Copyright@2017"></asp:Label>
+            </div>
+        </div>
+    <div>
+        
+    </div>
+    </form>
+    
+</body>
+</html>
+                 

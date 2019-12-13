@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/add2.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <Impressions>30</Impressions>
+    <AlternateText>Smart</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/add3.png</ImageUrl>
+    <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+    <Impressions>30</Impressions>
+    <AlternateText>Microsost</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/add5.png</ImageUrl>
+    <NavigateUrl>http://www.samsung.com</NavigateUrl>
+    <Impressions>30</Impressions>
+    <AlternateText>Samsung</AlternateText>
+  </Ad>
+</Advertisements>

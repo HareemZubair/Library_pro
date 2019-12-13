@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="/frmhome.aspx" title="Home"  description="" />
+        <siteMapNode url="/frmabout.aspx" title="About"  description="" />
+        <siteMapNode url="/frmsearch.aspx" title="Search"  description="" />
+        <siteMapNode url="/frmbooks.aspx" title="Books"  description="" />
+        <siteMapNode url="/frmmember.aspx" title="Member"  description="" />
+        <siteMapNode url="/frmComments.aspx" title="Feedback"  description="" />
+        <siteMapNode url="/frmadmin.aspx" title="Admin"  description="" />
+    </siteMapNode>
+</siteMap>

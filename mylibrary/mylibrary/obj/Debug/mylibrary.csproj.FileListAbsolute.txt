@@ -1,0 +1,12 @@
+�������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������
+E:\mylibrary\mylibrary\obj\Debug\mylibrary.csprojResolveAssemblyReference.cache
+E:\mylibrary\mylibrary\obj\Debug\mylibrary.dll
+E:\mylibrary\mylibrary\obj\Debug\mylibrary.pdb
+E:\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.csprojResolveAssemblyReference.cache
+E:\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.csproj.CoreCompileInputs.cache
+E:\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.dll
+E:\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.pdb
+C:\Users\haree\Documents\BSSE\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.csprojAssemblyReference.cache
+C:\Users\haree\Documents\BSSE\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.csproj.CoreCompileInputs.cache
+C:\Users\haree\Documents\BSSE\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.dll
+C:\Users\haree\Documents\BSSE\computer collegiate\mylibrary\mylibrary\obj\Debug\mylibrary.pdb
